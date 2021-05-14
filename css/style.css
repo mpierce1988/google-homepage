@@ -6,3 +6,45 @@ a {
     text-decoration: none;
     color: black;
 }
+
+/* Top Navigation Bar */
+.top-navigation-bar {
+    height: 100px;
+}
+.top-left-bar {
+    position: absolute;
+}
+
+.top-left-bar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-left-bar ul li {
+    padding: 10px;
+  
+}
+
+.top-right-bar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.top-right-bar ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.top-right-bar ul li {
+    padding: 10px;    
+}
+
+.profile-icon {
+    height: 50px;
+    width: auto;
+}
+
+/* Main Content */
+
