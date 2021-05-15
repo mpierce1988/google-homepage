@@ -56,19 +56,20 @@ main {
     
 }
 
-main div {
-    
-    
-   
-    
-}
 
-.search-bar {
-    
+
+.search-input {
+    width: 265px;
+    height: 35px;
+    border: 1px 0px solid #000000;
 }
 
 .search-input form label input{
-    width: 265px;
+   width: auto;
+   width: 265px;
+   border-style: solid;
+   border-radius: 5%;
+    
 }
 
 .search-buttons {
@@ -82,9 +83,14 @@ main div {
 .search-buttons ul li a {
     border-width: 1px;
     background-color: white;
-    border-style: solid;
-    border-color: black;
     padding: 10px;
+}
+
+.search-buttons ul li a:hover{
+    border-style: solid;
+    border-color: #aaa;
+    border-radius: 5%;
+    
 }
 
 .logo {
@@ -96,11 +102,46 @@ main div {
 
 /* Footer navigation */
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0px;
+    width: 100%;
+    background-color: 222;
 }
 
-footer div{
-    position: relative;
+footer div ul li a{
+    color: gray;
+}
+
+footer div ul li a:hover{
+    text-decoration: underline;
+}
+
+.bottom-left-bar {
+    position: absolute;
+}
+
+.bottom-left-bar ul{
+    display: flex;
+    justify-content: flex-start;
+    
+    padding: 10px;
+    
+}
+
+.bottom-left-bar ul li {
+    padding: 0px 10px;
+}
+
+
+
+.bottom-right-bar ul{
+   background-color: 222;
+   display: flex;
+   justify-content: flex-end;
+   padding: 10px;
+}
+
+.bottom-right-bar ul li {
+    padding: 0px 10px;
 }
